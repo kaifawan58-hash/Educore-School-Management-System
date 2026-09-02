@@ -536,4 +536,4 @@ winget uninstall --id <the-App-Id-from-the-list> --purge
 
 ## 📄 License
 
-Add a license of your choice (MIT is a common default for a project like this).
+**All rights, ownership, and copyright belong strictly to Saif (username: Kaifawan58-hash)**
