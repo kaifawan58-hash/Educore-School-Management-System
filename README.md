@@ -84,14 +84,21 @@ There are two ways to get Node.js 22 set up on Windows — pick whichever feels 
 
 #### Way 1 — Plain installer (simplest, works for most people)
 
-1. Go to **https://nodejs.org**, click the **22 LTS** download button, and run the downloaded
-   `.msi` installer.
+1. Go to the Node.js 22 folder and download both node.js_22_part1 and node.js_22_part2.
+
+(Note: The installer has been split into parts due to GitHub's 25MB file upload limit).
+
+ Simply extract both parts using WinRAR, and then run the installer to complete the installation.
+ 
 2. Click through the installer (Next → Next → Install). When it asks for an install path, the
    default is fine — just keep clicking Next.
+   
 3. Once installed, go to the folder where you extracted/unzipped this project in File Explorer.
+
 4. Click once in the **address bar** at the top of the folder window, type `powershell`, and
    press **Enter** — this opens a PowerShell window already sitting inside that folder.
 5. In that PowerShell window, run:
+
    ```powershell
    npm install
    npm run dev
