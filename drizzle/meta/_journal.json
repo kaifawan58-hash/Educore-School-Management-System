@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1788107340633,
+      "tag": "0000_first_famine",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1788107936114,
+      "tag": "0001_panoramic_lilandra",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1788138361081,
+      "tag": "0002_thankful_killmonger",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1788139005437,
+      "tag": "0003_medical_reavers",
+      "breakpoints": true
+    }
+  ]
+}
