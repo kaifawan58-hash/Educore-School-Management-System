@@ -68,14 +68,7 @@ Built with **Next.js 16 (App Router)** · **TypeScript** · **Tailwind CSS** · 
 - 🌱 **Realistic demo data** — a seeded tenant with ~80 students, 5 teachers, attendance history,
   invoices, exam results, and more, so the app looks and feels populated from the first run.
 
-## 📸 Screenshots
-
-> _Add screenshots here after your first run — e.g. `docs/dashboard.png`, `docs/students.png`._
->
-> ```md
-> ![Dashboard](docs/dashboard.png)
-> ![Students](docs/students.png)
-> ```
+## 📸 Watch working demo Video from Node Js 22 folder there are in 2 sprate parts name working demo.part1 and 2 extract both using wiinrar and see working 
 
 ## 🚀 Install & run
 
