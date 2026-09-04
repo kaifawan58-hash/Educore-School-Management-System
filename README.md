@@ -88,8 +88,9 @@ Click the address bar at the top of File Explorer, type powershell, and press En
 
 In PowerShell, run:
 
-**npm install**
-**npm run dev**
+npm install
+
+npm run dev
 
 Open **http://localhost:3000/dashboard** in your browser and log in.
 
