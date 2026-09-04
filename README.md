@@ -90,6 +90,7 @@ In PowerShell, run:
 
 npm install
 
+npm run dev
 
 Open **http://localhost:3000/dashboard** in your browser and log in.
 
