@@ -68,45 +68,35 @@ Built with **Next.js 16 (App Router)** · **TypeScript** · **Tailwind CSS** · 
 - 🌱 **Realistic demo data** — a seeded tenant with ~80 students, 5 teachers, attendance history,
   invoices, exam results, and more, so the app looks and feels populated from the first run.
 
-## 📸 Watch working demo Video from Node Js 22 folder there are in 2 sprate parts name working demo.part1 and 2 extract both using wiinrar and see working.
+## 📸 Watch Working Demo
 
-## 🚀 Install & run
+**Watch the working demo video to see the project in action.**
 
-You need **Node.js 22 (LTS)** — not 24, not 18. That's it — no Python, no C++ build tools, no
-Visual Studio. This project's database uses `@libsql/client`, which ships a ready-to-use native
-binary for every platform, so `npm install` never needs to compile anything. (Earlier versions of
-this project used `better-sqlite3`, which *did* need a compiler — if you're setting this up on a
-machine that previously hit a `node-gyp`/Python error, that's why; it's fixed now.)
+🚀 Install & Run
 
-### Windows
+You need Node.js 22 (LTS) — not 24, not 18. That's it — no Python, no C++ build tools, no Visual Studio.
 
-There are two ways to get Node.js 22 set up on Windows — pick whichever feels easier.
+Windows
 
-#### Way 1 — Plain installer (simplest, works for most people)
+Download and install Node.js 22 LTS from the official website:
 
-1. Go to the Node.js 22 folder and download both node.js_22_part1 and node.js_22_part2.
+👉 **https://nodejs.org/en/download/archive/v22**
 
-(Note: The installer has been split into parts due to GitHub's 25MB file upload limit).
+After installing Node.js 22, open the folder where you extracted this project.
 
- Simply extract both parts using WinRAR, and then run the installer to complete the installation.
- 
-2. Click through the installer (Next → Next → Install). When it asks for an install path, the
-   default is fine — just keep clicking Next.
-   
-3. Once installed, go to the folder where you extracted/unzipped this project in File Explorer.
+Click the address bar at the top of File Explorer, type powershell, and press Enter.
 
-4. Click once in the **address bar** at the top of the folder window, type `powershell`, and
-   press **Enter** — this opens a PowerShell window already sitting inside that folder.
-5. In that PowerShell window, run:
+In PowerShell, run:
 
-   ```powershell
-   npm install
-   npm run dev
-   ```
-6. Open **http://localhost:3000/dashboard** in your browser and log in — then go to **Settings**
-   to change the school name, branding, and other details as you want.
+**npm install
+npm run dev**
 
-That's it for Way 1 — no extra tools, no version managers.
+
+Open **http://localhost:3000/dashboard** in your browser and log in.
+
+Then go to Settings to change the school name, branding, and other details.
+
+That's it! 🎉
 
 #### Way 2 — fnm (Node version manager, useful if you need to switch Node versions later)
 
