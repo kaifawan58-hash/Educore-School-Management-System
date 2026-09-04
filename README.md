@@ -76,11 +76,11 @@ Built with **Next.js 16 (App Router)** · **TypeScript** · **Tailwind CSS** · 
 
 You need Node.js 22 (LTS) — not 24, not 18. That's it — no Python, no C++ build tools, no Visual Studio.
 
-Windows
+👉 Download **Node.js 22.11.0 (x64)**:
 
-Download and install Node.js 22 LTS from the official website:
+👉 [Download Node.js 22.11.0 (x64) for Windows](https://nodejs.org/dist/v22.11.0/node-v22.11.0-x64.msi)
 
-👉 **https://nodejs.org/en/download/archive/v22**
+During Installion Make sure You select Path option 
 
 After installing Node.js 22, open the folder where you extracted this project.
 
@@ -90,6 +90,7 @@ In PowerShell, run:
 
 npm install
 npm run dev
+
 
 Open **http://localhost:3000/dashboard** in your browser and log in.
 
